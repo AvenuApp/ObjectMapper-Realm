@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4C9052BC3160BD17EC8B75B8 /* Pods_ObjectMapper_RealmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3377D0A229F82680A2F1C2 /* Pods_ObjectMapper_RealmTests.framework */; };
+		777F4ECF21909EF2003E1276 /* ObjectMapper_Realm_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 777F4ECD21909EF2003E1276 /* ObjectMapper_Realm_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		777F4ED321909F0C003E1276 /* ListTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207CD261F6A21550055B8FE /* ListTransform.swift */; };
 		CF81D24DBB3918525A74969B /* Pods_ObjectMapper_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EAA9A6C617CE9BF1FC5125 /* Pods_ObjectMapper_Realm.framework */; };
 		D207CD141F6A21200055B8FE /* ObjectMapper_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D207CD0A1F6A21200055B8FE /* ObjectMapper_Realm.framework */; };
 		D207CD291F6A21550055B8FE /* ListTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207CD261F6A21550055B8FE /* ListTransform.swift */; };
@@ -32,6 +34,9 @@
 		42EAA9A6C617CE9BF1FC5125 /* Pods_ObjectMapper_Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectMapper_Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B182705D15425E2DD32B094 /* Pods-ObjectMapper_Realm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_Realm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_Realm/Pods-ObjectMapper_Realm.debug.xcconfig"; sourceTree = "<group>"; };
 		6E3377D0A229F82680A2F1C2 /* Pods_ObjectMapper_RealmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectMapper_RealmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		777F4ECB21909EF2003E1276 /* ObjectMapper_Realm_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper_Realm_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		777F4ECD21909EF2003E1276 /* ObjectMapper_Realm_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectMapper_Realm_watchOS.h; sourceTree = "<group>"; };
+		777F4ECE21909EF2003E1276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B79AD4FFC00F0726F9D2643D /* Pods-ObjectMapper_Realm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_Realm.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_Realm/Pods-ObjectMapper_Realm.release.xcconfig"; sourceTree = "<group>"; };
 		D207CD0A1F6A21200055B8FE /* ObjectMapper_Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper_Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D207CD131F6A21200055B8FE /* ObjectMapper_RealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectMapper_RealmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		777F4EC821909EF2003E1276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D207CD061F6A21200055B8FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,11 +85,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		777F4ECC21909EF2003E1276 /* ObjectMapper_Realm watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				777F4ECD21909EF2003E1276 /* ObjectMapper_Realm_watchOS.h */,
+				777F4ECE21909EF2003E1276 /* Info.plist */,
+			);
+			path = "ObjectMapper_Realm watchOS";
+			sourceTree = "<group>";
+		};
 		D207CD001F6A21200055B8FE = {
 			isa = PBXGroup;
 			children = (
 				D207CD241F6A21550055B8FE /* ObjectMapper+Realm */,
 				D207CD2B1F6A21640055B8FE /* ObjectMapper+RealmTests */,
+				777F4ECC21909EF2003E1276 /* ObjectMapper_Realm watchOS */,
 				D207CD0B1F6A21200055B8FE /* Products */,
 				D45C16ABCB113C07A1F0D3BA /* Pods */,
 				1BF374C722425F262D1EB5CF /* Frameworks */,
@@ -89,6 +111,7 @@
 			children = (
 				D207CD0A1F6A21200055B8FE /* ObjectMapper_Realm.framework */,
 				D207CD131F6A21200055B8FE /* ObjectMapper_RealmTests.xctest */,
+				777F4ECB21909EF2003E1276 /* ObjectMapper_Realm_watchOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +150,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		777F4EC621909EF2003E1276 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777F4ECF21909EF2003E1276 /* ObjectMapper_Realm_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D207CD071F6A21200055B8FE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +169,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		777F4ECA21909EF2003E1276 /* ObjectMapper_Realm watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777F4ED221909EF2003E1276 /* Build configuration list for PBXNativeTarget "ObjectMapper_Realm watchOS" */;
+			buildPhases = (
+				777F4EC621909EF2003E1276 /* Headers */,
+				777F4EC721909EF2003E1276 /* Sources */,
+				777F4EC821909EF2003E1276 /* Frameworks */,
+				777F4EC921909EF2003E1276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjectMapper_Realm watchOS";
+			productName = "ObjectMapper_Realm watchOS";
+			productReference = 777F4ECB21909EF2003E1276 /* ObjectMapper_Realm_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D207CD091F6A21200055B8FE /* ObjectMapper_Realm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D207CD1E1F6A21200055B8FE /* Build configuration list for PBXNativeTarget "ObjectMapper_Realm" */;
@@ -189,6 +238,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Jake Peterson";
 				TargetAttributes = {
+					777F4ECA21909EF2003E1276 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 7JP9698QME;
+						ProvisioningStyle = Automatic;
+					};
 					D207CD091F6A21200055B8FE = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
@@ -214,11 +268,19 @@
 			targets = (
 				D207CD091F6A21200055B8FE /* ObjectMapper_Realm */,
 				D207CD121F6A21200055B8FE /* ObjectMapper_RealmTests */,
+				777F4ECA21909EF2003E1276 /* ObjectMapper_Realm watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		777F4EC921909EF2003E1276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D207CD081F6A21200055B8FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,6 +376,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		777F4EC721909EF2003E1276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777F4ED321909F0C003E1276 /* ListTransform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D207CD051F6A21200055B8FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,6 +412,81 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		777F4ED021909EF2003E1276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7JP9698QME;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "ObjectMapper_Realm watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wfio.ObjectMapper-Realm-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		777F4ED121909EF2003E1276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7JP9698QME;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "ObjectMapper_Realm watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wfio.ObjectMapper-Realm-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		D207CD1C1F6A21200055B8FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -517,6 +662,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		777F4ED221909EF2003E1276 /* Build configuration list for PBXNativeTarget "ObjectMapper_Realm watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777F4ED021909EF2003E1276 /* Debug */,
+				777F4ED121909EF2003E1276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D207CD041F6A21200055B8FE /* Build configuration list for PBXProject "ObjectMapper+Realm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
