@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C9052BC3160BD17EC8B75B8 /* Pods_ObjectMapper_RealmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3377D0A229F82680A2F1C2 /* Pods_ObjectMapper_RealmTests.framework */; };
+		08BFAABE821F38C19B885066 /* Pods_ObjectMapper_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1261981118CBF3900F1850 /* Pods_ObjectMapper_Realm.framework */; };
+		5F17EFA9E18A78E7662A006A /* Pods_ObjectMapper_RealmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E604CBB609EBFC59F20467D /* Pods_ObjectMapper_RealmTests.framework */; };
 		777F4ECF21909EF2003E1276 /* ObjectMapper_Realm_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 777F4ECD21909EF2003E1276 /* ObjectMapper_Realm_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		777F4ED321909F0C003E1276 /* ListTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207CD261F6A21550055B8FE /* ListTransform.swift */; };
-		CF81D24DBB3918525A74969B /* Pods_ObjectMapper_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EAA9A6C617CE9BF1FC5125 /* Pods_ObjectMapper_Realm.framework */; };
 		D207CD141F6A21200055B8FE /* ObjectMapper_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D207CD0A1F6A21200055B8FE /* ObjectMapper_Realm.framework */; };
 		D207CD291F6A21550055B8FE /* ListTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207CD261F6A21550055B8FE /* ListTransform.swift */; };
 		D207CD2A1F6A21550055B8FE /* ObjectMapper_Realm.h in Headers */ = {isa = PBXBuildFile; fileRef = D207CD271F6A21550055B8FE /* ObjectMapper_Realm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D207CD2F1F6A22CF0055B8FE /* ListTransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207CD2E1F6A22CF0055B8FE /* ListTransformTests.swift */; };
 		D207CD311F6A23590055B8FE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207CD301F6A23590055B8FE /* User.swift */; };
+		D99F155E128B3728E51A3A16 /* Pods_ObjectMapper_Realm_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B62DB4F114F4208DD4DFE3 /* Pods_ObjectMapper_Realm_watchOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +30,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27EB964D8E182B6CB3B3C5F6 /* Pods-ObjectMapper_RealmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_RealmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_RealmTests/Pods-ObjectMapper_RealmTests.release.xcconfig"; sourceTree = "<group>"; };
-		41C55ABE3239F799AF25576B /* Pods-ObjectMapper_RealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_RealmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_RealmTests/Pods-ObjectMapper_RealmTests.debug.xcconfig"; sourceTree = "<group>"; };
-		42EAA9A6C617CE9BF1FC5125 /* Pods_ObjectMapper_Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectMapper_Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B182705D15425E2DD32B094 /* Pods-ObjectMapper_Realm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_Realm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_Realm/Pods-ObjectMapper_Realm.debug.xcconfig"; sourceTree = "<group>"; };
-		6E3377D0A229F82680A2F1C2 /* Pods_ObjectMapper_RealmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectMapper_RealmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B62DB4F114F4208DD4DFE3 /* Pods_ObjectMapper_Realm_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectMapper_Realm_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADFFC6A3410239C576650A7 /* Pods-ObjectMapper_Realm watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_Realm watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_Realm watchOS/Pods-ObjectMapper_Realm watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		777F4ECB21909EF2003E1276 /* ObjectMapper_Realm_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper_Realm_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		777F4ECD21909EF2003E1276 /* ObjectMapper_Realm_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectMapper_Realm_watchOS.h; sourceTree = "<group>"; };
 		777F4ECE21909EF2003E1276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B79AD4FFC00F0726F9D2643D /* Pods-ObjectMapper_Realm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_Realm.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_Realm/Pods-ObjectMapper_Realm.release.xcconfig"; sourceTree = "<group>"; };
+		7E604CBB609EBFC59F20467D /* Pods_ObjectMapper_RealmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectMapper_RealmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88256B48F861189A7A242DD6 /* Pods-ObjectMapper_RealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_RealmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_RealmTests/Pods-ObjectMapper_RealmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB6B3D415E152D792CFBE17F /* Pods-ObjectMapper_Realm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_Realm.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_Realm/Pods-ObjectMapper_Realm.release.xcconfig"; sourceTree = "<group>"; };
+		C6856269C26EA49B58D70320 /* Pods-ObjectMapper_RealmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_RealmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_RealmTests/Pods-ObjectMapper_RealmTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA1261981118CBF3900F1850 /* Pods_ObjectMapper_Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectMapper_Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D207CD0A1F6A21200055B8FE /* ObjectMapper_Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper_Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D207CD131F6A21200055B8FE /* ObjectMapper_RealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectMapper_RealmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D207CD251F6A21550055B8FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +48,8 @@
 		D207CD2C1F6A21640055B8FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D207CD2E1F6A22CF0055B8FE /* ListTransformTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransformTests.swift; sourceTree = "<group>"; };
 		D207CD301F6A23590055B8FE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D4764B595EF336D20D513E18 /* Pods-ObjectMapper_Realm watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_Realm watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_Realm watchOS/Pods-ObjectMapper_Realm watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		DB6F32A57FEC912C88511580 /* Pods-ObjectMapper_Realm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper_Realm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper_Realm/Pods-ObjectMapper_Realm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99F155E128B3728E51A3A16 /* Pods_ObjectMapper_Realm_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF81D24DBB3918525A74969B /* Pods_ObjectMapper_Realm.framework in Frameworks */,
+				08BFAABE821F38C19B885066 /* Pods_ObjectMapper_Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,20 +74,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				D207CD141F6A21200055B8FE /* ObjectMapper_Realm.framework in Frameworks */,
-				4C9052BC3160BD17EC8B75B8 /* Pods_ObjectMapper_RealmTests.framework in Frameworks */,
+				5F17EFA9E18A78E7662A006A /* Pods_ObjectMapper_RealmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BF374C722425F262D1EB5CF /* Frameworks */ = {
+		4C04B8ACB79E662B44218A01 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				42EAA9A6C617CE9BF1FC5125 /* Pods_ObjectMapper_Realm.framework */,
-				6E3377D0A229F82680A2F1C2 /* Pods_ObjectMapper_RealmTests.framework */,
+				DB6F32A57FEC912C88511580 /* Pods-ObjectMapper_Realm.debug.xcconfig */,
+				AB6B3D415E152D792CFBE17F /* Pods-ObjectMapper_Realm.release.xcconfig */,
+				1ADFFC6A3410239C576650A7 /* Pods-ObjectMapper_Realm watchOS.debug.xcconfig */,
+				D4764B595EF336D20D513E18 /* Pods-ObjectMapper_Realm watchOS.release.xcconfig */,
+				88256B48F861189A7A242DD6 /* Pods-ObjectMapper_RealmTests.debug.xcconfig */,
+				C6856269C26EA49B58D70320 /* Pods-ObjectMapper_RealmTests.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		777F4ECC21909EF2003E1276 /* ObjectMapper_Realm watchOS */ = {
@@ -101,8 +110,8 @@
 				D207CD2B1F6A21640055B8FE /* ObjectMapper+RealmTests */,
 				777F4ECC21909EF2003E1276 /* ObjectMapper_Realm watchOS */,
 				D207CD0B1F6A21200055B8FE /* Products */,
-				D45C16ABCB113C07A1F0D3BA /* Pods */,
-				1BF374C722425F262D1EB5CF /* Frameworks */,
+				4C04B8ACB79E662B44218A01 /* Pods */,
+				ED264B4AB87E06894F303F61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,15 +145,14 @@
 			path = "ObjectMapper+RealmTests";
 			sourceTree = "<group>";
 		};
-		D45C16ABCB113C07A1F0D3BA /* Pods */ = {
+		ED264B4AB87E06894F303F61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B182705D15425E2DD32B094 /* Pods-ObjectMapper_Realm.debug.xcconfig */,
-				B79AD4FFC00F0726F9D2643D /* Pods-ObjectMapper_Realm.release.xcconfig */,
-				41C55ABE3239F799AF25576B /* Pods-ObjectMapper_RealmTests.debug.xcconfig */,
-				27EB964D8E182B6CB3B3C5F6 /* Pods-ObjectMapper_RealmTests.release.xcconfig */,
+				CA1261981118CBF3900F1850 /* Pods_ObjectMapper_Realm.framework */,
+				13B62DB4F114F4208DD4DFE3 /* Pods_ObjectMapper_Realm_watchOS.framework */,
+				7E604CBB609EBFC59F20467D /* Pods_ObjectMapper_RealmTests.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 777F4ED221909EF2003E1276 /* Build configuration list for PBXNativeTarget "ObjectMapper_Realm watchOS" */;
 			buildPhases = (
+				528EBC13D57232DC77B3B0CA /* [CP] Check Pods Manifest.lock */,
 				777F4EC621909EF2003E1276 /* Headers */,
 				777F4EC721909EF2003E1276 /* Sources */,
 				777F4EC821909EF2003E1276 /* Frameworks */,
@@ -191,12 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D207CD1E1F6A21200055B8FE /* Build configuration list for PBXNativeTarget "ObjectMapper_Realm" */;
 			buildPhases = (
-				F7096EEA0620BF9F18C5CB88 /* [CP] Check Pods Manifest.lock */,
+				FC987CEE6064BFE2BB3EBA09 /* [CP] Check Pods Manifest.lock */,
 				D207CD051F6A21200055B8FE /* Sources */,
 				D207CD061F6A21200055B8FE /* Frameworks */,
 				D207CD071F6A21200055B8FE /* Headers */,
 				D207CD081F6A21200055B8FE /* Resources */,
-				C4E87C2A4638636A440E756D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,12 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D207CD211F6A21200055B8FE /* Build configuration list for PBXNativeTarget "ObjectMapper_RealmTests" */;
 			buildPhases = (
-				FD6326D1D7D3F05AD12BCA96 /* [CP] Check Pods Manifest.lock */,
+				CA441F89AA2F849A1BAF8608 /* [CP] Check Pods Manifest.lock */,
 				D207CD0F1F6A21200055B8FE /* Sources */,
 				D207CD101F6A21200055B8FE /* Frameworks */,
 				D207CD111F6A21200055B8FE /* Resources */,
-				39D659B8D36F1BCA982DF4E9 /* [CP] Embed Pods Frameworks */,
-				A52BDE10C964DD62487CD5C9 /* [CP] Copy Pods Resources */,
+				AA669A0650938DB88CABE503 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,79 +305,96 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		39D659B8D36F1BCA982DF4E9 /* [CP] Embed Pods Frameworks */ = {
+		528EBC13D57232DC77B3B0CA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectMapper_Realm watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA669A0650938DB88CABE503 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ObjectMapper_RealmTests/Pods-ObjectMapper_RealmTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectMapper_RealmTests/Pods-ObjectMapper_RealmTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A52BDE10C964DD62487CD5C9 /* [CP] Copy Pods Resources */ = {
+		CA441F89AA2F849A1BAF8608 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectMapper_RealmTests/Pods-ObjectMapper_RealmTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4E87C2A4638636A440E756D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectMapper_Realm/Pods-ObjectMapper_Realm-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F7096EEA0620BF9F18C5CB88 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectMapper_RealmTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD6326D1D7D3F05AD12BCA96 /* [CP] Check Pods Manifest.lock */ = {
+		FC987CEE6064BFE2BB3EBA09 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectMapper_Realm-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -414,6 +438,7 @@
 /* Begin XCBuildConfiguration section */
 		777F4ED021909EF2003E1276 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ADFFC6A3410239C576650A7 /* Pods-ObjectMapper_Realm watchOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -452,6 +477,7 @@
 		};
 		777F4ED121909EF2003E1276 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4764B595EF336D20D513E18 /* Pods-ObjectMapper_Realm watchOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -590,7 +616,7 @@
 		};
 		D207CD1F1F6A21200055B8FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B182705D15425E2DD32B094 /* Pods-ObjectMapper_Realm.debug.xcconfig */;
+			baseConfigurationReference = DB6F32A57FEC912C88511580 /* Pods-ObjectMapper_Realm.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -603,13 +629,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wfio.ObjectMapper-Realm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		D207CD201F6A21200055B8FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B79AD4FFC00F0726F9D2643D /* Pods-ObjectMapper_Realm.release.xcconfig */;
+			baseConfigurationReference = AB6B3D415E152D792CFBE17F /* Pods-ObjectMapper_Realm.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -622,13 +648,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wfio.ObjectMapper-Realm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 		D207CD221F6A21200055B8FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41C55ABE3239F799AF25576B /* Pods-ObjectMapper_RealmTests.debug.xcconfig */;
+			baseConfigurationReference = 88256B48F861189A7A242DD6 /* Pods-ObjectMapper_RealmTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -639,13 +665,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		D207CD231F6A21200055B8FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27EB964D8E182B6CB3B3C5F6 /* Pods-ObjectMapper_RealmTests.release.xcconfig */;
+			baseConfigurationReference = C6856269C26EA49B58D70320 /* Pods-ObjectMapper_RealmTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -655,7 +681,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wfio.ObjectMapper-RealmTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

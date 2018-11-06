@@ -4,8 +4,8 @@ platform :ios, '8.0'
 use_frameworks!
 
 def shared_pods
-  pod 'RealmSwift', '~> 2.10.0'
-  pod 'ObjectMapper', '~> 2.2.8'
+  pod 'RealmSwift'
+  pod 'ObjectMapper'
 end
 
 target 'ObjectMapper_Realm' do
@@ -13,5 +13,9 @@ target 'ObjectMapper_Realm' do
 end
 
 target 'ObjectMapper_RealmTests' do
+  shared_pods
+end
+
+target 'ObjectMapper_Realm watchOS' do
   shared_pods
 end
